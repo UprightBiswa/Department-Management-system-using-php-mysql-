@@ -1,0 +1,168 @@
+a:visited {
+    color: rgb(1, 187, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgba(255, 0, 0, 0.949);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  
+  .container {
+    top: auto;
+    padding: 20px;
+    display: flex;
+  }
+  
+  
+  
+  * {
+      margin: 0;
+      padding: 0;
+      outline: none;
+      border: none;
+      text-decoration: none;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+    
+    body {
+      background: rgb(226, 226, 226);
+    }
+    
+    nav {
+      position: sticky;
+      top: 0;
+      bottom: 0;
+      height: 143vh;
+      left: 0;
+      width: 377px;
+      background: #fff;
+      overflow: hidden;
+      overflow-y:scroll;
+    
+    }
+    
+    .logo {
+      text-align: center;
+      display: flex;
+      margin: 10px 0 0 10px;
+      padding-bottom: 3rem;
+    }
+    
+    .logo img {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+    }
+    
+    .logo span {
+      font-weight: bold;
+      padding-left: 15px;
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+    
+    a {
+      position: relative;
+      width: 280px;
+      font-size: 14px;
+      color: rgb(85, 83, 83);
+      display: table;
+      padding: 10px;
+    }
+    
+    nav .fas {
+      position: relative;
+      width: 70px;
+      height: 40px;
+      top: 20px;
+      font-size: 20px;
+      text-align: center;
+    }
+    
+    .nav-item {
+      position: relative;
+      top: 12px;
+      margin-left: 10px;
+    }
+    
+    a:hover {
+      background: #eee;
+    }
+    
+    a:hover i {
+      color: #34AF6D;
+      transition: 0.5s;
+    }
+    
+    
+    
+    
+     div.Info{
+        color: rgba(163, 212, 255, 0.945);
+        background-color:transparent;
+        text-decoration: none;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        line-height: 20px;
+        letter-spacing: 1px;
+        font-weight: normal;
+    
+    }
+    
+    div.header{
+        color: rgba(204, 0, 255, 0.945);
+        background-color:transparent;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: bold;
+        text-shadow: 1px 1px lightblue;
+    }
+    
+    a.link{
+      color: green;
+      background-color: violet;
+      text-decoration: none;
+      text-emphasis: red;
+    }
+    
+    
+    li{
+        list-style-type: square;
+    }
+     
+    span{
+        font-size: medium;
+        font-family:sans-serif;
+        font-weight: bold;
+    }
+    
+    
+    
+    
+    button {
+        background-color: #04AA6D;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 45%;
+      }
+    
+      button:hover {
+        opacity: 0.8;
+      }
+      
+      /* Extra styles for the cancel button */
+      .cancelbtn {
+        width: 45%;
+        padding: 14px 14px;
+        background-color: #f44336;
+        float: right;
+      
+      }
+    
+  
